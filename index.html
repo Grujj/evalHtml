@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="flex">
+        <nav class="menu flex">
+            <div>
+                <p>Marque</p>
+            </div>
+            <ul class="right">
+                <li>
+                    <a href="#">Page 1</a>
+                    <ul class="sub displayNone">
+                        <li><a href="#">Lien1</a></li>
+                        <li><a href="#">Lien2</a></li>
+                        <li><a href="#">Lien3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Page 2</a>
+                    <ul class="sub displayNone">
+                        <li><a href="#">Lien1</a></li>
+                        <li><a href="#">Lien2</a></li>
+                        <li><a href="#">Lien3</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Page 3</a>
+                    <ul class="sub displayNone">
+                        <li><a href="#">Lien1</a></li>
+                        <li><a href="#">Lien2</a></li>
+                        <li><a href="#">Lien3</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="right">
+                <button type="button" id="form">Se connecter</button>
+            </div>
+        </nav>
+        <div class="flex center">
+            <h1>Jumbotron</h1>
+            <p>Ceci est un jumbotron, je lui ai ajouter un effet qu'on appelle parallax. L'image de fond a été chargé dans le CSS</p>
+            <a href="#" id="jumbotron">Plus d'info sur W3School</a>
+        </div>
+        
+    </header>
+
+    <!-- MAIN -->
+    <main class="flex">
+        <!-- NAV -->
+        <aside id="asideLeft" class="left">
+            <ul>
+                <li><a href="#">Capgemini</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Je Suis un Dev</a></li>
+                <li><a href="#">les joies du code</a></li>
+            </ul>
+        </aside>
+
+        <!-- SECTION -->
+        
+        <section class="center">
+            <p id="msg"></p>
+            <article>
+                <h2>Article</h2>
+                <p>Excogitatum est super his, ut homines quidam ignoti, vilitate ipsa parum cavendi ad colligendos rumores per Antiochiae latera cuncta destinarentur relaturi quae audirent. hi peragranter et dissimulanter honoratorum circulis adsistendo pervadendoque divites domus egentium habitu quicquid noscere poterant vel audire latenter intromissi per posticas in regiam nuntiabant, id observantes conspiratione concordi, ut fingerent quaedam et cognita duplicarent in peius, laudes vero supprimerent Caesaris, quas invitis conpluribus formido malorum inpendentium exprimebat.</p>
+            </article>
+            <article>
+                <h2>Article</h2>
+                <p>Excogitatum est super his, ut homines quidam ignoti, vilitate ipsa parum cavendi ad colligendos rumores per Antiochiae latera cuncta destinarentur relaturi quae audirent. hi peragranter et dissimulanter honoratorum circulis adsistendo pervadendoque divites domus egentium habitu quicquid noscere poterant vel audire latenter intromissi per posticas in regiam nuntiabant, id observantes conspiratione concordi, ut fingerent quaedam et cognita duplicarent in peius, laudes vero supprimerent Caesaris, quas invitis conpluribus formido malorum inpendentium exprimebat.</p>
+            </article>
+            <article>
+                <h2>Article</h2>
+                <p>Excogitatum est super his, ut homines quidam ignoti, vilitate ipsa parum cavendi ad colligendos rumores per Antiochiae latera cuncta destinarentur relaturi quae audirent. hi peragranter et dissimulanter honoratorum circulis adsistendo pervadendoque divites domus egentium habitu quicquid noscere poterant vel audire latenter intromissi per posticas in regiam nuntiabant, id observantes conspiratione concordi, ut fingerent quaedam et cognita duplicarent in peius, laudes vero supprimerent Caesaris, quas invitis conpluribus formido malorum inpendentium exprimebat.</p>
+            </article>
+        </section>
+
+        <!-- ASIDE -->
+    
+    <aside id="asideRight" class="displayNone">
+        <form  method="post">
+
+            <p><label for="login">Identifiant : </label>
+            <input type="text" id="login" name="login"></p>
+
+            <p><label for="pass">Mot de passe : </label>
+            <input type="password" id="pass" name="pass"></p>
+
+            <p><label for="confirm">Confirmer mot de passe : </label>
+            <input type="password" id="confirm" name="confirm"></p>
+
+            <button id="submit" type="button">Submit</button>
+        </form>
+    </aside>
+
+    </main>
+
+    
+
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

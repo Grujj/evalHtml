@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left{
+    flex-basis: 20%;
+}
+
+.center{
+    flex-basis: 80%;
+}
+
+.right{
+    flex-basis: 20%;
+}
+
+.displayNone{
+    display: none;
+}
+
+/*          HEADER            */
+
+header{
+    background-image: url("../img/slide1-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
+}
+
+header #jumbotron{
+    border: 1px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.menu{
+    background-color: rgb(49, 47, 47);
+    flex-basis: 100%;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul > li{
+    display: inline-block;
+}
+
+.menu ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+li:hover .sub{
+    display: block;
+    z-index: 10;
+}
+
+header .flex.center{
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+/*          MAIN            */
+aside.left ul{
+    list-style-type: none;
+}
+
+aside.left ul > li > a{
+    text-decoration: none;
+}
+
