@@ -85,3 +85,10 @@ aside.left ul > li > a{
     text-decoration: none;
 }
 
+footer{
+    border-top: 1px solid black;
+}
+
+footer .center{
+    flex-basis: 50%;
+}
